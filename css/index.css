@@ -1,0 +1,162 @@
+*{margin:0;padding:0}
+li{list-style: none;}
+a{text-decoration: none;}
+html,body{
+	width:100%;
+	height:100%;
+	font-family: "微软雅黑";
+	line-height: 0.33rem;
+	overflow: hidden;
+}
+#zx{
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*头部*/
+#header{
+	width:100%;
+	height:1rem;
+	background:#e4366b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#header img{
+	width:2.1rem;
+	height:0.5rem;
+}
+
+
+/*主体*/
+#bodyer{
+	width:100%;
+	flex: 1;
+	overflow: hidden;
+}
+#bodyer #wrap{
+	width:100%;
+}
+/*搜索框*/
+#bodyer #wrap #searchBox{
+	width:100%;
+	height:1rem;
+	background: #484850;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: ;
+}
+#bodyer #wrap #searchBox #search{
+	width:80%;
+	height:70%;
+	border-radius: 20px;
+	font-size:0.28rem;
+	padding-left: 0.38rem;
+	padding-right: 0.38rem;
+	box-sizing: border-box;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#bodyer #wrap #searchBox #ulList{
+	width:80%;
+	position: absolute;
+	top:0.8rem;
+	background: #ccc;
+	z-index: 10;
+	font-size:0.25rem;
+	border-radius: 20px;
+}
+#bodyer #wrap #searchBox #ulList li{
+	padding:0.05rem 0.38rem;
+	box-sizing: border-box;
+	border-bottom: 0.03rem dashed #eee;
+}
+#bodyer #wrap #searchBox #ulList li:last-child{
+	border-bottom: none;
+}
+
+/*轮播图*/
+#bodyer #wrap .swiper-container{
+    width: 100%;
+    height: 3.5rem;
+}  
+#bodyer #wrap .swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+/*商品栏*/
+#bodyer #wrap #goods{
+	width: 100%;
+}
+#bodyer #wrap #goods .goodsDan{
+	width: 100%;
+	height:2.4rem;
+	border-bottom:2px solid #333;
+	display: flex;
+	align-items: center;
+}
+#bodyer #wrap #goods .goodsDan .goodsImg{
+	width:2.1rem;
+	height:2.1rem;
+	margin:0 0.2rem;
+}
+#bodyer #wrap #goods .goodsDan .list{
+	width:100%;
+	height: 80%;
+	flex:1;
+	padding-right:0.2rem;
+	font-size: 0.25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#bodyer #wrap #goods .goodsDan .list p:nth-child(1){
+	font-size: 0.3rem;
+	font-weight: 600;
+}
+#bodyer #wrap #goods .goodsDan .list p:nth-child(2) span:nth-child(1){
+	font-size: 0.3rem;
+	color:#e4366b;
+	margin-right: 0.28rem;
+}
+#bodyer #wrap #goods .goodsDan .list p:nth-child(2) span:nth-child(2){
+	text-decoration: line-through;
+}
+
+
+/*底部*/
+#footer{
+	width:100%;
+	height:1rem;
+	background:#484850;
+	font-size:0.28rem;
+	color:#fff;
+}
+#footer ul{
+	width:100%;
+	height:100%;
+	display: flex;
+	justify-content: space-around;	
+	align-items: center;
+}
+#footer ul li{
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-top:0.06rem solid #484850;
+}
+#footer ul li:nth-child(1){
+	border-top:0.06rem solid #e4366b;
+}
+#footer ul li span{
+	font-size:0.4rem;
+	margin-bottom:0.1rem;
+}

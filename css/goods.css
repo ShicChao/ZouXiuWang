@@ -1,0 +1,190 @@
+*{margin:0;padding:0}
+li{list-style: none;}
+a{text-decoration: none;}
+html,body{
+	width:100%;
+	height:100%;
+	font-family: "微软雅黑";
+	line-height: 0.33rem;
+	overflow: hidden;
+}
+#zx{
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*头部*/
+#header{
+	width:100%;
+	height:1rem;
+	background:#e4366b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+#header img{
+	width:0.6rem;
+	height:0.4rem;
+	position: absolute;
+	top:0.28rem;left:0.2rem;
+}
+#header p{
+	width:1.7rem;
+	height:0.4rem;
+	text-align: center;
+	color:#fff;
+	font-size:0.4rem;
+}
+#header div{
+	position: absolute;
+	width:1.0rem;
+	height:0.5rem;
+	top:0.25rem;right:0.25rem;
+	border: 3px solid #eee;
+	font-size:0.3rem;
+	border-radius: 0.2rem;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+
+/*倒计时*/
+#nav{
+	width:100%;
+	height:0.8rem;
+	background:#484850;
+	font-size:0.32rem;
+	color:#fff;
+	display: flex;
+	align-items: center;
+	padding-left:0.35rem;
+}
+
+
+/*主体*/
+#bodyer{
+	flex:1;	
+	font-size:0.28rem;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background: #f7f7f7;
+}
+#bodyer #main{
+	width:100%;
+	height:90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#bodyer #main #pic{
+	width:65%;
+	height:50%;
+	border:1px solid #999;	
+}
+#bodyer #main #pic #img{
+	width:100%;
+	height:100%;
+}
+#bodyer #main #bank{
+	width:100%;
+	height:0.4rem;	
+	display: flex;
+	justify-content:  flex-start;
+	align-items: center;
+}
+#bodyer #main #bank #p1{	
+	width: 0;
+	height: 0;	
+	border: 0.4rem solid #e4366b;
+	border-top:0.4rem solid #fff;
+	border-bottom:0.4rem solid #fff;
+	border-left:0.4rem solid #fff;
+}
+#bodyer #main #bank #p2{
+	width: 80%;
+	height: 0.8rem;
+	margin-left:-1px ;
+	background: #e4366b;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border: none;
+}
+#bodyer #main #bank #p2 #yuan{
+	width:0.4rem;
+	height:0.3rem;
+	border-radius: 50%;
+	background: #fff;
+	margin-right:0.3rem;
+}
+#bodyer #main #bank #p2 #price{
+	margin-right:0.3rem;
+}
+#bodyer #main #bank #p2 #name{
+	width:100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#bodyer #main #bottom{
+	width:90%;
+	height:15%;
+	font-size:0.22rem
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color:#999;
+}
+#bodyer #main #bottom #priceY{
+	margin-left:0.3rem;
+	margin-right:0.3rem;
+}
+#bodyer #main #bottom #priceY #xian{
+	text-decoration: line-through;
+}
+#bodyer #main #bottom #zhekou{
+	margin-right:0.9rem;
+}
+
+/*底部*/
+#footer{
+	width:100%;
+	height:1rem;
+	background:#605f65;
+	font-size:0.33rem;
+	color:#fff;
+}
+#footer ul{
+	width:100%;
+	height:100%;
+	display: flex;
+	justify-content: space-around;	
+	align-items: center;
+}
+#footer ul li{
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-top:0.06rem solid #605f65;
+	border-left:0.02rem solid #999;
+}
+#footer ul li:nth-child(1){
+	border-top:0.06rem solid #e4366b;
+	border-left:none;
+}
+#footer ul li span{
+	font-size:0.4rem;
+	margin-bottom:0.1rem;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="fonts/iconfont.css" />
+	</head>
+	<body>
+		<div id="zx">
+			<!--头部-->
+			<header id="header">
+				<img src="img/logo.jpg" />
+			</header>
+			<!--主体-->
+			<bodyer id="bodyer">
+				<div id="wrap">
+					<!--搜索框-->
+					<div id="searchBox">
+						<input type="text" id="search" placeholder="请输入搜索内容"/>
+						<!--搜索索引动态添加-->
+						<ul id='ulList'>
+
+						</ul>
+					</div>
+					<!--轮播图-->
+					<div class="swiper-container">
+					    <div class="swiper-wrapper">
+					    	<!--动态创建-->
+					        <!--<div class="swiper-slide"></div>
+					        <div class="swiper-slide"></div>
+					        <div class="swiper-slide"></div>-->
+					    </div>
+					    <!-- 如果需要分页器 -->
+					    <div class="swiper-pagination"></div>
+					</div>
+					<!--商品-->
+					<ul id="goods">
+						<!--每个商品 动态创建-->
+						<!--<li class="goodsDan">
+							<img src="img/tu.png" class="goodsImg">
+							<div id='list'>
+								<p>啦啦啦啦啦啦啦啦阿拉啦啦啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+								<p><span>￥0</span><span>￥28880</span></p>
+								<p>0折</p>
+							</div>
+						</li>-->
+					</ul>
+				</div>
+			</bodyer>
+			<!--底部-->
+			<footer id="footer">
+				<ul id="footerList">
+					<li id="home"><span class="iconfont icon-shouye"></span>首页</li>
+					<li id="class"><span class="iconfont icon-fenlei"></span>分类</li>
+					<li id="buy"><span class="iconfont icon-cart"></span>购物车</li>
+					<li id="myShow"><span class="iconfont icon-wo"></span>我的秀</li>
+					<li id="more"><span class="iconfont icon-gengduo"></span>更多</li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/zepto.min.js" ></script>
+	<script type="text/javascript" src="js/swiper.min.js" ></script>	
+	<script type="text/javascript" src="js/iscroll.min.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+	<script type="text/javascript" src="js/search.js" ></script>
+	<script>
+		//轮播图
+		var mySwiper;
+		//商品
+		//var myScroll;
+	</script>
+</html>
